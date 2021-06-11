@@ -7,8 +7,6 @@ from bs4 import BeautifulSoup
 # To use this file, first, copy all the URLs you wish to convert to .txt file to your clipboard.
 # They must be in a clean format i.e. beginning with http:// or https:// and ending with / or white space
 
-# os.mkdir('Website_text')
-
 # Create a Regular Expression for a web address
 webAddress = re.compile(r'http://www.*|https://www.*')
 
