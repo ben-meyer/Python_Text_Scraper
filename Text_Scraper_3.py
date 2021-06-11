@@ -28,7 +28,7 @@ for i in ExtractedWebAddress:
 # Create a blank dictionary to store page titles and text		
 webPageText_and_title = {}
 
-# Go through the clean urls in the NewUrls list
+# Go through the clean urls in the NewUrls list.
 # Convert the webpage to text using html2text module
 # Extract the title of the webpage with BeautifulSoup
 # Store the title of the webpage as a key and the text as a value in the new dictionary
