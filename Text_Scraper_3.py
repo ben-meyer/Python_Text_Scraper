@@ -3,9 +3,9 @@
 import re, os, pyperclip, requests, bs4, html2text
 from bs4 import BeautifulSoup
 
-# This file uses the html2text module to iterate through a sitemap and extract all the text on every webpage.
-# To use this file, first, copy all the URLs you wish to convert to .txt file to your clipboard.
-# They must be in a clean format i.e. beginning with http:// or https:// and ending with / or white space
+# This file uses the html2text module to iterate through a list of urls and extract all the text on each webpage.
+# To use this file, first, copy all the URLs you wish to convert to a .txt file to your clipboard.
+# They must be in a clean format i.e. beginning with http:// or https:// and ending with / or white space.
 
 # Create a Regular Expression for a web address
 webAddress = re.compile(r'http://www.*|https://www.*')
@@ -69,3 +69,5 @@ print('Program complete!')
 # 1. Create a new folder to store the files in
 # 2. Add in the urls to the .txt file so you know which webpage it was
 # 3. Create the sitemap from scratch from one base_url inputted by the user
+# 4. Create a simple GUI to operate the program
+# 5. Make the program executable from Mac and Windows
